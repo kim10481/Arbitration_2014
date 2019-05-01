@@ -1,0 +1,8 @@
+load('SBJ_structure.mat');
+sess_num = length(SBJ{1,1}.HIST_behavior_info);
+AAA = [];
+for i =1 : 1 : sess_num
+   AAA = [AAA ; SBJ{1, 1}.HIST_behavior_info{1, i}];
+end
+
+numtime
